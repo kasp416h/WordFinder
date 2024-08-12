@@ -38,7 +38,7 @@
     <None Include="..\alpha_words.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>ﬁ
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\WordFinderLib\WordFinderLib.csproj" />
