@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "WordFinderLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/WordFinderLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WordFinderLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordFinderLib/1.0.0": {
+      "type": "project",
+      "path": "../WordFinderLib/WordFinderLib.csproj",
+      "msbuildProject": "../WordFinderLib/WordFinderLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "WordFinderLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HFGF\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HFGF\\Desktop\\WordFinder\\WordFinderApp\\WordFinderApp.csproj",
+      "projectName": "WordFinderApp",
+      "projectPath": "C:\\Users\\HFGF\\Desktop\\WordFinder\\WordFinderApp\\WordFinderApp.csproj",
+      "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HFGF\\Desktop\\WordFinder\\WordFinderApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HFGF\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\HFGF\\Desktop\\WordFinder\\WordFinderLib\\WordFinderLib.csproj": {
+              "projectPath": "C:\\Users\\HFGF\\Desktop\\WordFinder\\WordFinderLib\\WordFinderLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

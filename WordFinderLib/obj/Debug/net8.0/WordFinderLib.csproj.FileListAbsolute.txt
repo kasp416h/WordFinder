@@ -1,0 +1,11 @@
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\bin\Debug\net8.0\WordFinderLib.deps.json
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\bin\Debug\net8.0\WordFinderLib.dll
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\bin\Debug\net8.0\WordFinderLib.pdb
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.AssemblyInfoInputs.cache
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.AssemblyInfo.cs
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.dll
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\refint\WordFinderLib.dll
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\WordFinderLib.pdb
+C:\Users\HFGF\Desktop\WordFinder\WordFinderLib\obj\Debug\net8.0\ref\WordFinderLib.dll

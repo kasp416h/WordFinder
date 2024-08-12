@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>WordFinderApp</RootNamespace>
+    <AssemblyName>WordFinderApp</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\diamond.png" />
+    <Resource Include="Images\flame.png" />
+    <Resource Include="Images\shuttle.png" />
+    <Resource Include="Fonts\Dosis.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Include all necessary compile items -->
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <None Update="App.config" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WordFinderLib\WordFinderLib.csproj" />
+  </ItemGroup>
+
+  <!-- Removed the explicit inclusion of Page items -->
+</Project>
