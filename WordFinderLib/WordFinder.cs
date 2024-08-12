@@ -154,9 +154,7 @@ namespace WordFinderLib
 
         private static string[] LoadWords(string wordsFile)
         {
-            string directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            string filePath = Path.Combine(directory, wordsFile);
-            return File.ReadAllLines(filePath);
+            return File.ReadAllLines(wordsFile);
         }
     }
 }
